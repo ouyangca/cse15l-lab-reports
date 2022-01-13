@@ -1,4 +1,7 @@
 Good Afternoon
 
-[Link](ucsd.edu)
-ucsd.edu
+
+[Link](https://ucsd.edu/index.html)
+
+
+https://ucsd.edu/index.html
