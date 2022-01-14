@@ -1,5 +1,1 @@
-Good Afternoon
-
-
-[Lab Report 1](new_file.html)
-[Lab Report 1](https://ouyangca.github.io/cse15l-lab-reports/new_file.html)
+![image](https://user-images.githubusercontent.com/51312196/149429956-a03fe541-25e6-4831-b6b8-388dcc73e418.png)
