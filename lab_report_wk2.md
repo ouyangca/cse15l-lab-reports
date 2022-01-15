@@ -81,3 +81,10 @@ $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
+
+> Note: 
+> Everything within "" will run as a single execution
+> use ; to include multiple commands on the same line
+> use `↑` and `↓` to select pervious commands in the terminal
+
+
