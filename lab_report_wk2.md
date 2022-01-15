@@ -67,6 +67,11 @@ Now run the file using `javac` and `java` on the server and see what happens.
 
 ---
 ## Setting an SSH Key
+Notice how every time we try to log into the school server, we have to enter our password again, which makes it time-comsuming.
+Using an SSH Key can reduce the password step, so logging back in will become easier for us.
+
+Enter the command `ssh-keygen` on your personal computer
+For Windows users, complete  [Extra Steps Here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
 ![image](https://user-images.githubusercontent.com/51312196/149612551-f667fc46-1555-4889-8ec2-7e735768353b.png)
 ![image](https://user-images.githubusercontent.com/51312196/149612559-259012b0-90d6-475a-99ca-8837a7a2deb1.png)
