@@ -92,4 +92,21 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 > use ; to include multiple commands on the same line
 > use `↑` and `↓` to select pervious commands in the terminal
 
+ 
+Optimized solution:
+First, copy the file from local computer to the server. (Since we have already created an ssh for the server to recognize our device, we don't need to provide a password.
+
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
+> Remember to change the email address to your unique one!
+
+Then, use the following code to find the file, compile and run the code:
+```
+ssh cs15lwi22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+```
+By using only two lines of command, we are able to make changes to a file locally and run it on the server.
+We can use up arrow keys and enter to re-use previous commands in the terminal, therefore, we only need to use six keystrokes in total (two up arrow keys and one enter key for each of the two commands). 
+![image](https://user-images.githubusercontent.com/51312196/151174561-08196a87-ea3d-43b4-9af7-2727dd8fedec.png)
+
 
