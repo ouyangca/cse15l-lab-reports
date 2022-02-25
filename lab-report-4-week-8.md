@@ -5,8 +5,17 @@
 * The one I reviewed: [Sean's repository](https://github.com/5ean-github/markdown-parse)
 
 ## Snippet 1
-**Expected output using [CommonMark demo](https://spec.commonmark.org/dingus/)**
-**code in MarkdownParseTest.java**
+* **Expected output using [CommonMark demo](https://spec.commonmark.org/dingus/)**
+* **Code in MarkdownParseTest.java**
+* **My implementation**
+* **Sean's implementation**
 ## Snippet 2
-
+* **Expected output using [CommonMark demo](https://spec.commonmark.org/dingus/)**
+* **Code in MarkdownParseTest.java**
+* **My implementation**
+* **Sean's implementation**
 ## Snippet 3
+* **Expected output using [CommonMark demo](https://spec.commonmark.org/dingus/)**
+* **Code in MarkdownParseTest.java**
+* **My implementation**
+* **Sean's implementation**
