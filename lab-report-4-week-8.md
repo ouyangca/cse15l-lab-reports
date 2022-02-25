@@ -6,6 +6,10 @@
 
 ## Snippet 1
 * **Expected output using [CommonMark demo](https://spec.commonmark.org/dingus/)**
+![image](https://user-images.githubusercontent.com/51312196/155672226-dbc5c11a-1cc1-4f3d-8236-0f94d0226207.png)
+Expected output in terminal:
+![image](https://user-images.githubusercontent.com/51312196/155676639-f7be66c7-d3e1-4e3d-9ed0-5852e435a3b9.png)
+
 
 * **Code in MarkdownParseTest.java**
 * **My implementation**
