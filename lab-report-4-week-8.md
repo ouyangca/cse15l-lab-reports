@@ -76,4 +76,4 @@ It would be a more involved change, because my code right now is searching each 
 
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
 
-
+It would be a more involved change. First, I have to make sure when there are line breaks between the brackets, we ignore the entire thing before the line break. Then, when a link does not have a closing parenthesis, we need to change the code to not keep searching for a closing parenthesis, but would detect the next opening bracket instead. Lastly, we have to take into account that the md file will not always have a closing parenthesis as the last character. 
