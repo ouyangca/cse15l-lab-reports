@@ -71,5 +71,9 @@ Expected output in terminal:
 Yes. I only need to add two lines of code - every time we find a open braket or a closed bracket , check of the character right before it, if it is a backtick, then ignore the braket and continue to search for the next bracket after that.
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.**
 
+It would be a more involved change, because my code right now is searching each symbol in order. For example, after we locate the first opening bracket, the code will continue to search for a closing bracket while ignoring all the other symbols, such as parenthesis or another opening bracket. I would have to add code to take into the account of escaped brakets, and that would take 1-2 lines, and then I have to add code to make sure that there is no more opening brackets after the first opening bracket we found, or else we need to update the index. I then have to make sure the parenthesis we found are the outer most parenthesis.
+
 
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
+
+
